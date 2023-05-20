@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+
+    <title>Digital Clock </title>
+    <style>
+        body {
+            background: black;
+        }
+
+        .clock {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            color: purple;
+            font-size: 90px;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 5 px;
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Digital Clock</h1>
+
+
+    <div id="DigitalClockDisplay" class="clock" onload="showTime()"></div>
+
+
+
+
+    <script src="./app.js"> </script>
+</body>
+
+</html>
